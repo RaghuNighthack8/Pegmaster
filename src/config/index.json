@@ -1,7 +1,7 @@
 {
   "company": {
     "name": "React landing page 2021",
-    "logo": "/assets/images/logo.png"
+    "logo": "/assets/images/logo2.png"
   },
   "navigation": [
     {
@@ -27,10 +27,11 @@
     "href": "#"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "PEGmaster ",
+    "subtitle": "Prompt Engineering Guardrails",
+    "description": "Simplified prompt Engineering for end users with the complex fine-tuning under the hood handled by our team of experts. Just add in your problem statement and let us build the rest.",
+    "subdiscription": "Go to market in 1 week!",
+    "img": "/assets/images/logo4.png",
     "primaryAction": {
       "text": "Get started",
       "href": "#"
@@ -41,24 +42,27 @@
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "Initiate and Deploy",
+        "description": "Gathering Domain knowledge, Training data and compilation of fine-tuning data for specific use case. Establishing baseline for results and accuracy as expected by the project / firm. Deploy a first live system which works with all Dev-Ops and scaling setup."
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "Fine-Tuning",
+        "description": "Multiple Fine-Tuning Cycles to arrive at an accuracy level between inputs an outputs. First training cycle usually will reach about 70% with our team of experts. They will then fine grain the results and outliers for review with your organisation. Blackbox is released to the setup from step 1"
+      },
+      {
+        "title": "Iterations",
+        "description": "6 week iterations of fine-tuning data and results with guaranteed 10% boost upto 92% accuracy! These are numbers almost unknown in the ML services industry."
       }
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "title": "",
+    "subtitle": "Prompt Engineering Guardrails",
+    "description": "Welcome to the PEG project, also known as Prompt Engineering Guardrails, affectionately branded as \"pegmaster\". This innovative endeavor is dedicated to engineering automated and efficient prompts to ensure consistent results across a myriad of problem statements. With a focus on enhancing the prompt engineering process, PEG aims to establish robust guardrails that steer towards optimal outcomes, thereby revolutionizing the landscape of problem-solving across diverse domains.",
+    "subdiscription": "Join us on this transformative journey as we embark on pioneering advancements in prompt engineering for unparalleled efficiency and effectiveness.",
     "items": [
       {
         "name": "React.js",
@@ -93,7 +97,7 @@
           "1 user",
           "Basic Support",
           "1 GB of storage",
-          "Email support"
+          "PEGmaster API"
         ]
       },
       {
@@ -105,7 +109,7 @@
           "5 users",
           "Priority Support",
           "10 GB of storage",
-          "Phone and Email support"
+          "PEGmaster API with Fine tuning for your data"
         ]
       },
       {
@@ -116,7 +120,7 @@
           "50 users",
           "24/7 Support",
           "100 GB of storage",
-          "Phone and Email support"
+          "PEG on Prem - on premise deployment"
         ]
       }
     ]

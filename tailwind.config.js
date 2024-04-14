@@ -20,7 +20,7 @@ module.exports = {
         primary: '#018afc',
         secondary: '#ffffff',
         tertiary: '#ffffff',
-        border: '#1a2e35',
+        border: '#018afc',
         background: '#141416',
       },
       animation: {

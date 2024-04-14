@@ -11,7 +11,7 @@ const Pricing = () => {
     <section className={`bg-background py-8`} id="pricing">
       <div className={`container mx-auto px-2 pt-4 pb-12 text-primary`}>
         <h1
-          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
+          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-tertiary`}
         >
           {title}
         </h1>
@@ -29,13 +29,15 @@ const Pricing = () => {
             <div
               className={`flex-1 bg-background text-gray-600 rounded-t rounded-b-none overflow-hidden shadow`}
             >
-              <div className={`p-8 text-3xl font-bold text-center border-b-4`}>
+              <div
+                className={`p-8 text-3xl font-bold text-center text-white border-b-4`}
+              >
                 {firstPlan?.name}
               </div>
               <ul className={`w-full text-center text-sm`}>
                 {firstPlan?.features.map((feature) => (
                   <li
-                    className={`border-b py-4`}
+                    className={`border-b py-4 text-white`}
                     key={`${firstPlan.name}-${feature}`}
                   >
                     {feature}
@@ -47,7 +49,7 @@ const Pricing = () => {
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
             >
               <div
-                className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center`}
+                className={`w-full pt-6 text-3xl text-white font-bold text-center`}
               >
                 {firstPlan?.price}
                 <span className={`text-base`}> {firstPlan?.priceDetails}</span>
@@ -92,13 +94,15 @@ const Pricing = () => {
             <div
               className={`flex-1 bg-background text-gray-600 rounded-t rounded-b-none overflow-hidden shadow`}
             >
-              <div className={`p-8 text-3xl font-bold text-center border-b-4`}>
+              <div
+                className={`p-8 text-3xl font-bold text-center text-white border-b-4`}
+              >
                 {thirdPlan?.name}
               </div>
               <ul className={`w-full text-center text-sm`}>
                 {thirdPlan?.features.map((feature) => (
                   <li
-                    className={`border-b py-4`}
+                    className={`border-b py-4 text-white`}
                     key={`${thirdPlan?.name}-${feature}`}
                   >
                     {feature}
@@ -110,7 +114,7 @@ const Pricing = () => {
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
             >
               <div
-                className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center`}
+                className={`w-full pt-6 text-3xl text-white font-bold text-center`}
               >
                 {thirdPlan?.price}
                 <span className={`text-base`}> {thirdPlan?.priceDetails}</span>

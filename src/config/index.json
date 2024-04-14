@@ -33,12 +33,12 @@
     "subdiscription": "Go to market in 1 week!",
     "img": "/assets/images/logo4.png",
     "primaryAction": {
-      "text": "Get started",
-      "href": "#"
+      "text": "Email us",
+      "href": "mailto:developer@nighthack.in?subject=Prompt Engineering Guadrails"
     },
     "secondaryAction": {
-      "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "text": "Request Access",
+      "href": "mailto:developer@nighthack.in?subject=Prompt Engineering Guadrails"
     }
   },
   "product": {
@@ -128,24 +128,14 @@
   "about": {
     "sections": [
       {
-        "name": "Something",
+        "name": "footer1",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": "Are you an Enterprise?"
       },
       {
-        "name": "Something",
+        "name": "footer2",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": "Contact us"
       }
     ],
     "socialMedia": {

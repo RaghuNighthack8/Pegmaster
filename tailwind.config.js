@@ -8,7 +8,7 @@ module.exports = {
       sm: '0.875rem',
       base: '1rem',
       lg: '1.125rem',
-      xl: '1.25rem',
+      xl: '1.24rem',
       '2xl': '1.5rem',
       '3xl': '1.875rem',
       '4xl': '2.25rem',
@@ -20,7 +20,7 @@ module.exports = {
         primary: '#018afc',
         secondary: '#ffffff',
         tertiary: '#ffffff',
-        border: '#1a2e35',
+        border: '#018afc',
         background: '#141416',
       },
       animation: {

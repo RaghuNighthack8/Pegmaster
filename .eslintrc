@@ -1,6 +1,6 @@
 {
   "extends": ["airbnb-base", "plugin:prettier/recommended"],
-  "plugins": ["@next/next"], // Add Next.js ESLint plugin
+  "plugins": ["@next/next"],
 
   "rules": {
     "prettier/prettier": [
@@ -17,7 +17,6 @@
       "plugins": ["@typescript-eslint", "unused-imports"],
       "extends": [
         "airbnb-typescript",
-        "next/core-web-vitals",
         "plugin:prettier/recommended"
       ],
       "parserOptions": {
